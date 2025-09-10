@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href = "{{ url_for('static', filename='css/main.css')}}">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="icon" type="image/png" href="/./static/images/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/./static/images/favicon.svg" />
+    <link rel="shortcut icon" href="/./static/images/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/./static/images/apple-touch-icon.png" />
+    <link rel="manifest" href="/./static/images/site.webmanifest" />
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+            <li><a href="about">О себе</a></li>
+            <li><a href="portfolio">Портфолио</a></li>
+            <li><a href="motivation">Мотивационное письмо</a></li>
+            <li><a href="videoesse">Видеоэссе</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="block"></div>
+
+    {% block body %}{% endblock %}
+</body>
+</html>

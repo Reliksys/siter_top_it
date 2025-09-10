@@ -1,0 +1,48 @@
+body {
+  font-family: "Comic Sans MS", "Comic Sans", cursive; /*мне нравится андертейл, поэтому комик санc*/
+  font-size: 18px;
+}
+
+.otstup { 
+  padding-left: 20px; 
+}
+
+header {
+  background-color: aquamarine;
+  align-content: center;
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+:hover a{
+  color: blue;
+}
+
+.obradinn {
+  width: 700px;
+  height: 400px;
+
+}
+.greet-img {
+  align-self: center;
+  width: 1000px; 
+  height: 575px;
+}
+
+.diploma {
+  width: 1000px;
+  height: 750px;
+}
+.karamazovs {
+  width: 450px;
+  height: 600px;
+}
+.greeting {
+  color:indigo;
+  text-align: center;
+}
